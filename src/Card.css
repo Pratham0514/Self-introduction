@@ -1,0 +1,84 @@
+/* Main container card */
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Profile box inside card */
+.card-1 {
+    
+    width: 250px;
+    height: 250px;
+    margin: 5px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile image */
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Details section */
+.card-2 {
+    
+    padding: 15px;
+    border-radius: 8px;
+    
+    width: 100%;
+}
+
+/* Contact info */
+.card-email,
+.card-phone {
+    display: inline-block;
+    padding: 5px 5px;
+    text-decoration: none;
+    
+}
+.card-label{
+    display: inline-block;
+    padding: 5px 5px;
+    color: rgb(123, 43, 43);
+}
+
+
+.color-card{
+    background-color: antiquewhite;
+    width: fit-content;
+    height: 50px;
+    margin: 5px auto; 
+    padding: 2px;
+    display: flex; 
+    border: 2px solid black;
+     border-radius: 8px;
+}
+.color-box{
+    width: 80px; 
+    height: 42px; 
+    margin: 2px; 
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.card-github-img,.card-linkedin-img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+}
